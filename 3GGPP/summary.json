@@ -1,1 +1,396 @@
-[]
+[
+  {
+    "file": "TS24283_Lms_Information.yaml",
+    "api_title": "LMS_Information",
+    "api_version": "1.0.0-alpha.7",
+    "api_description": "API for Requesting and subscribing on Location Information from LMS Service.  \n\u00c2\u00a9 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n",
+    "endpoint": "/requests",
+    "method": "POST",
+    "tags": [
+      "LMS Location Request (Collection)"
+    ],
+    "response_codes": [
+      "201",
+      "400",
+      "401",
+      "403",
+      "404",
+      "411",
+      "413",
+      "415",
+      "429",
+      "500",
+      "503",
+      "default"
+    ]
+  },
+  {
+    "file": "TS24283_Lms_Information.yaml",
+    "api_title": "LMS_Information",
+    "api_version": "1.0.0-alpha.7",
+    "api_description": "API for Requesting and subscribing on Location Information from LMS Service.  \n\u00c2\u00a9 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n",
+    "endpoint": "/subscriptions",
+    "method": "POST",
+    "tags": [
+      "Location Subscription Request (Collection)"
+    ],
+    "response_codes": [
+      "201",
+      "400",
+      "401",
+      "403",
+      "404",
+      "411",
+      "413",
+      "415",
+      "429",
+      "500",
+      "503",
+      "default"
+    ]
+  },
+  {
+    "file": "TS24283_Lms_Information.yaml",
+    "api_title": "LMS_Information",
+    "api_version": "1.0.0-alpha.7",
+    "api_description": "API for Requesting and subscribing on Location Information from LMS Service.  \n\u00c2\u00a9 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n",
+    "endpoint": "/subscriptions/{subscriptionId}",
+    "method": "PUT",
+    "tags": [
+      "Update Location subscription (Document)"
+    ],
+    "response_codes": [
+      "200",
+      "204",
+      "400",
+      "401",
+      "403",
+      "404",
+      "411",
+      "413",
+      "415",
+      "429",
+      "500",
+      "503",
+      "default"
+    ]
+  },
+  {
+    "file": "TS24283_Lms_Information.yaml",
+    "api_title": "LMS_Information",
+    "api_version": "1.0.0-alpha.7",
+    "api_description": "API for Requesting and subscribing on Location Information from LMS Service.  \n\u00c2\u00a9 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n",
+    "endpoint": "/subscriptions/{subscriptionId}",
+    "method": "DELETE",
+    "tags": [
+      "Delete location Subscription (Document)"
+    ],
+    "response_codes": [
+      "204",
+      "307",
+      "308",
+      "400",
+      "401",
+      "403",
+      "404",
+      "429",
+      "500",
+      "503",
+      "default"
+    ]
+  },
+  {
+    "file": "TS24283_Lms_Information.yaml",
+    "api_title": "LMS_Information",
+    "api_version": "1.0.0-alpha.7",
+    "api_description": "API for Requesting and subscribing on Location Information from LMS Service.  \n\u00c2\u00a9 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n",
+    "endpoint": "/configrequest",
+    "method": "POST",
+    "tags": [
+      "LMS Location Info Config Request (Collection)"
+    ],
+    "response_codes": [
+      "201",
+      "400",
+      "401",
+      "403",
+      "404",
+      "411",
+      "413",
+      "415",
+      "429",
+      "500",
+      "503",
+      "default"
+    ]
+  },
+  {
+    "file": "TS24283_Lms_Reporting.yaml",
+    "api_title": "LMS_Reporting",
+    "api_version": "1.0.0-alpha.8",
+    "api_description": "API for Registration and location reporting to LMS Service.  \n\u00c2\u00a9 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n",
+    "endpoint": "/registrations",
+    "method": "POST",
+    "tags": [
+      "LMS Registration (Collection)"
+    ],
+    "response_codes": [
+      "201",
+      "400",
+      "401",
+      "403",
+      "404",
+      "411",
+      "413",
+      "415",
+      "429",
+      "500",
+      "503",
+      "default"
+    ]
+  },
+  {
+    "file": "TS24283_Lms_Reporting.yaml",
+    "api_title": "LMS_Reporting",
+    "api_version": "1.0.0-alpha.8",
+    "api_description": "API for Registration and location reporting to LMS Service.  \n\u00c2\u00a9 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n",
+    "endpoint": "/registrations/{registrationId}",
+    "method": "PUT",
+    "tags": [
+      "Individual LMS registration (Document)"
+    ],
+    "response_codes": [
+      "200",
+      "204",
+      "400",
+      "401",
+      "403",
+      "404",
+      "411",
+      "413",
+      "415",
+      "429",
+      "500",
+      "503",
+      "default"
+    ]
+  },
+  {
+    "file": "TS24283_Lms_Reporting.yaml",
+    "api_title": "LMS_Reporting",
+    "api_version": "1.0.0-alpha.8",
+    "api_description": "API for Registration and location reporting to LMS Service.  \n\u00c2\u00a9 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n",
+    "endpoint": "/registrations/{registrationId}",
+    "method": "DELETE",
+    "tags": [
+      "Individual LMC registration (Document)"
+    ],
+    "response_codes": [
+      "204",
+      "307",
+      "308",
+      "400",
+      "401",
+      "403",
+      "404",
+      "429",
+      "500",
+      "503",
+      "default"
+    ]
+  },
+  {
+    "file": "TS24283_Lms_Reporting.yaml",
+    "api_title": "LMS_Reporting",
+    "api_version": "1.0.0-alpha.8",
+    "api_description": "API for Registration and location reporting to LMS Service.  \n\u00c2\u00a9 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n",
+    "endpoint": "/locationreports",
+    "method": "POST",
+    "tags": [
+      "MC UE Location Report (Collection)"
+    ],
+    "response_codes": [
+      "201",
+      "400",
+      "401",
+      "403",
+      "404",
+      "411",
+      "413",
+      "415",
+      "429",
+      "500",
+      "503",
+      "default"
+    ]
+  },
+  {
+    "file": "TS24283_Lms_Reporting.yaml",
+    "api_title": "LMS_Reporting",
+    "api_version": "1.0.0-alpha.8",
+    "api_description": "API for Registration and location reporting to LMS Service.  \n\u00c2\u00a9 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n",
+    "endpoint": "/configurations",
+    "method": "GET",
+    "tags": [
+      "LMC configurations (Collection)"
+    ],
+    "response_codes": [
+      "200",
+      "307",
+      "308",
+      "400",
+      "401",
+      "403",
+      "404",
+      "406",
+      "429",
+      "500",
+      "503",
+      "default"
+    ]
+  },
+  {
+    "file": "TS24549_NSCE_SliceInfo.yaml",
+    "api_title": "NSCE_SliceInfo",
+    "api_version": "1.1.0-alpha.1",
+    "api_description": "API for notification of slice information.  \n\u00c2\u00a9 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n",
+    "endpoint": "/edn-slice-subscriptions",
+    "method": "POST",
+    "tags": [],
+    "response_codes": [
+      "default"
+    ]
+  },
+  {
+    "file": "TS24549_NSCE_SliceInfo.yaml",
+    "api_title": "NSCE_SliceInfo",
+    "api_version": "1.1.0-alpha.1",
+    "api_description": "API for notification of slice information.  \n\u00c2\u00a9 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n",
+    "endpoint": "/plmn-slice-subscriptions",
+    "method": "POST",
+    "tags": [],
+    "response_codes": [
+      "default"
+    ]
+  },
+  {
+    "file": "TS24549_NSCE_SliceInfo.yaml",
+    "api_title": "NSCE_SliceInfo",
+    "api_version": "1.1.0-alpha.1",
+    "api_description": "API for notification of slice information.  \n\u00c2\u00a9 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n",
+    "endpoint": "/ns-info-subscriptions",
+    "method": "POST",
+    "tags": [],
+    "response_codes": [
+      "default"
+    ]
+  },
+  {
+    "file": "TS24558_Eees_AppContextRelocation.yaml",
+    "api_title": "Eees Application Context Relocation Service",
+    "api_version": "1.2.0-alpha.4",
+    "api_description": "Eees Application Context Relocation Service.  \n\u00c2\u00a9 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n",
+    "endpoint": "/determine",
+    "method": "POST",
+    "tags": [
+      "Determine ACR"
+    ],
+    "response_codes": [
+      "204",
+      "307",
+      "308",
+      "400",
+      "401",
+      "403",
+      "404",
+      "411",
+      "413",
+      "415",
+      "429",
+      "500",
+      "503",
+      "default"
+    ]
+  },
+  {
+    "file": "TS24558_Eees_AppContextRelocation.yaml",
+    "api_title": "Eees Application Context Relocation Service",
+    "api_version": "1.2.0-alpha.4",
+    "api_description": "Eees Application Context Relocation Service.  \n\u00c2\u00a9 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n",
+    "endpoint": "/initiate",
+    "method": "POST",
+    "tags": [
+      "Initiate ACR"
+    ],
+    "response_codes": [
+      "204",
+      "307",
+      "308",
+      "400",
+      "401",
+      "403",
+      "404",
+      "411",
+      "413",
+      "415",
+      "429",
+      "500",
+      "503",
+      "default"
+    ]
+  },
+  {
+    "file": "TS24558_Eees_AppContextRelocation.yaml",
+    "api_title": "Eees Application Context Relocation Service",
+    "api_version": "1.2.0-alpha.4",
+    "api_description": "Eees Application Context Relocation Service.  \n\u00c2\u00a9 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n",
+    "endpoint": "/declare",
+    "method": "POST",
+    "tags": [
+      "Declare selected target EAS"
+    ],
+    "response_codes": [
+      "204",
+      "307",
+      "308",
+      "400",
+      "401",
+      "403",
+      "404",
+      "411",
+      "413",
+      "415",
+      "429",
+      "500",
+      "503",
+      "default"
+    ]
+  },
+  {
+    "file": "TS24560_Aimlec_MLModTngCapEva.yaml",
+    "api_title": "Aimlec_MLModelTrainingCapabilityEva",
+    "api_version": "1.0.0-alpha.2",
+    "api_description": "API for ML Model Training Capability Evaluation Service.  \n\u00c2\u00a9 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n",
+    "endpoint": "/request",
+    "method": "POST",
+    "tags": [
+      "ML model training capability evaluation request"
+    ],
+    "response_codes": [
+      "200",
+      "307",
+      "308",
+      "400",
+      "401",
+      "403",
+      "404",
+      "411",
+      "413",
+      "415",
+      "429",
+      "500",
+      "503",
+      "default"
+    ]
+  }
+]
